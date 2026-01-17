@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Creative Developer</title>
+    <link rel="stylesheet" href="try.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navigation">
+        <nav class="nav-container">
+            <div class="site-name">Carl Patrick G. Mondigo</div>
+            <div class="nav-right">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="btn btn-primary">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">👋 Welcome to my portfolio</div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Web</span><br>
+                        Developer
+                    </h1>
+                    <p class="hero-description">
+                        Soon to be a professional web developer with a passion for creating beautiful and functional websites. Explore my projects and skills to see what I can bring to your team.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary btn-large">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary btn-large">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image"></div>
+                    <div class="hero-decoration"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">About Me</span>
+                    <h2 class="section-heading">Hello, I'm <span class="gradient-text"></br>Carl Patrick G. Mondigo</span></h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            As a fourth-year student at Cebu Technological University Danao Campus studying computer engineering, I'm actively seeking an OJT chance to obtain practical work experience. I've worked on system projects and web development, and I'm excited to share my knowledge in a formal setting. With the company's assistance, I hope to improve both myself and my abilities.
+                        </p>
+                        <div class="about-buttons">
+                            <a href="#contact" class="btn btn-primary btn-large">Let's Work Together</a>
+                            <a href="#" class="btn btn-secondary btn-large">Download CV</a>
+                        </div>
+                    </div>
+                    <div class="about-image-wrapper">
+                        <img src="carlpic.jpg" alt="Professional headshot" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Featured Projects</span>
+                    <h2 class="section-heading">My Recent <span class="gradient-text">Projects</span></h2>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="segbin">
+                        <div class="project-image">
+                            <img src="Segbinpic.png" alt="SegBin App screenshot" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View Project →</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Flutter/Dart</span>
+                                <span class="project-tag">Firebase</span>
+                            </div>
+                            <h3 class="project-title">SegBin App</h3>
+                            <p class="project-description">A modern monitoring application for waste management and reward systems.</p>
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="weather">
+                        <div class="project-image">
+                            <img src="weathersytem.png" alt="Weather System Web interface" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View Project →</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                            </div>
+                            <h3 class="project-title">Weather System Web</h3>
+                            <p class="project-description">A simple weather system web application with real-time data results.</p>
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="university">
+                        <div class="project-image">
+                            <img src="universitypic.png" alt="University Web design" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View Project →</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                            <h3 class="project-title">University Web</h3>
+                            <p class="project-description">A modern university website with integrated student portal and course management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-heading">Certificates  & <span class="gradient-text">Achievements</span></h2>
+                </div>
+                <div class="certificates-grid">
+                    <div class="certificate-card" data-image="tesda1.jpg">
+                        <div class="certificate-image">
+                            <img src="tesda1.jpg" alt="React Developer Certificate">
+                            <div class="certificate-overlay">
+                                <div class="certificate-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificate-content">
+                            <h3 class="certificate-title">Creative Web Design</h3>
+                            <p class="certificate-issuer">Call Center Academy</p>
+                            <span class="certificate-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="certificate-card" data-image="IOT.jpg">
+                        <div class="certificate-image">
+                            <img src="IOT2.jpg" alt="JavaScript Mastery Certificate">
+                            <div class="certificate-overlay">
+                                <div class="certificate-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificate-content">
+                            <h3 class="certificate-title">Internet of Things</h3>
+                            <p class="certificate-issuer">Call Center Academy</p>
+                            <span class="certificate-date">2024</span>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" data-image="organizations.jpg">
+                        <div class="certificate-image">
+                            <img src="videographer.jpg" alt="JavaScript Mastery Certificate">
+                            <div class="certificate-overlay">
+                                <div class="certificate-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificate-content">
+                            <h3 class="certificate-title">Videographer</h3>
+                            <p class="certificate-issuer">Engineering Society, Cebu Technological University - Danao Campus</p>
+                            <span class="certificate-date">2024 - 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-heading">What I <span class="gradient-text">do</span></h2>
+                    <p class="section-subtitle">
+                        Aspiring to become a web developer someday. I enjoy creating responsive, visually appealing websites and building functional systems that are efficient and easy to use. I also develop mobile applications using Flutter, and I’m eager to learn from industry professionals while contributing to meaningful projects.
+                    </p>
+                </div>
+
+                <div class="skills-content">
+                    <!-- Left Column - Programming Skills -->
+                    <div class="skills-column">
+                        <h3 class="column-title">Programming/Library Skills</h3>
+                        <div class="programming-skills">
+                            <div class="skill-item">
+                                <div class="skill-icon-small">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 10.11c1.03 0 1.87.84 1.87 1.89 0 1-.84 1.85-1.87 1.85S10.13 13 10.13 12c0-1.05.84-1.89 1.87-1.89zM7.37 16.5c.76 1.27 2.04 2.15 3.63 2.15s2.87-.88 3.63-2.15c.22-.37.91-.37 1.13 0 1.3 2.18 3.74 3.65 6.5 3.65.41 0 .75.34.75.75s-.34.75-.75.75c-3.51 0-6.67-1.98-8.13-5-.17-.29-.04-.67.26-.84.29-.18.67-.04.84.26zm6.26-1.5c-1.5 0-2.73-.9-3.28-2.12-.14-.31-.41-.5-.74-.5-.46 0-.78.39-.67.84.71 1.88 2.53 3.28 4.69 3.28s3.98-1.4 4.69-3.28c.11-.45-.21-.84-.67-.84-.33 0-.6.19-.74.5-.55 1.22-1.78 2.12-3.28 2.12z"/>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">HTML</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon-small">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon-small">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.1 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon-small">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM9 7h6v2H9V7zm0 4h6v2H9v-2zm0 4h4v2H9v-2z"/>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">C</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon-small">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon-small">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">Flutter/Dart</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vertical Divider -->
+                    <div class="skills-divider"></div>
+
+                    <!-- Right Column - Other Skills -->
+                    <div class="skills-column">
+                        <h3 class="column-title">Other Skills</h3>
+                        <div class="other-skills">
+                            <div class="other-skill-card">
+                                <div class="other-skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
+                                        <path d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                </div>
+                                <div class="other-skill-content">
+                                    <h4 class="other-skill-title">AutoCAD</h4>
+                                    <p class="other-skill-description">
+                                        Proficient in AutoCAD for 2D and 3D drafting, technical drawing, and architectural design. Experienced in creating detailed technical drawings, floor plans, and engineering diagrams with precision and industry standards.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="other-skill-card">
+                                <div class="other-skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM8 17H6v-5.5h2V17zm4 0h-2V13h2v4zm4 0h-2v-7.5h2V17z"/>
+                                        <circle cx="12" cy="7" r="1.5"/>
+                                    </svg>
+                                </div>
+                                <div class="other-skill-content">
+                                    <h4 class="other-skill-title">Visual Studio Code</h4>
+                                    <p class="other-skill-description">
+                                        Proficient in using Visual Studio Code as my primary code editor, with extensive knowledge of extensions, debugging tools, and development workflows for efficient coding.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="other-skill-card">
+                                <div class="other-skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 10h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z"/>
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                    </svg>
+                                </div>
+                                <div class="other-skill-content">
+                                    <h4 class="other-skill-title">Firebase</h4>
+                                    <p class="other-skill-description">
+                                        Experienced in Firebase backend services including authentication, real-time database, cloud functions, and hosting for building scalable web and mobile applications.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="other-skill-card">
+                                <div class="other-skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                                    </svg>
+                                </div>
+                                <div class="other-skill-content">
+                                    <h4 class="other-skill-title">Blender</h4>
+                                    <p class="other-skill-description">
+                                        Proficient in Blender for 3D modeling, animation, and visual effects.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="other-skill-card">
+                                <div class="other-skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 15H7v-4h2v4zm4 0h-2V9h2v6zm4 0h-2v-2h2v2z"/>
+                                        <circle cx="12" cy="7" r="1.5"/>
+                                    </svg>
+                                </div>
+                                <div class="other-skill-content">
+                                    <h4 class="other-skill-title">Canva</h4>
+                                    <p class="other-skill-description">
+                                        Skilled in using Canva for graphic design, creating professional marketing materials, social media graphics and presentations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-heading">Contact <span class="gradient-text">Me</span></h2>
+                    <p class="section-subtitle">
+                        Feel free to reach out for collaborations, projects, or inquiries. I'd love to hear from you!
+                    </p>
+                </div>
+
+                <div class="contact-content">
+                    <!-- Left Column - Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Tayud, Consolacion, Cebu</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">carlpatrickmondigo2003@gmail.com</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Phone</span>
+                                    <span class="contact-value">09815697338</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-message">
+                            <h3 class="message-title">Let's work together!</h3>
+                            <p class="message-text">
+                                I'm always excited to take on new challenges and collaborate on innovative projects.
+                                Whether you have a project in mind or just want to connect, I'd love to hear from you.
+                            </p>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4 class="social-title">Follow Me</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/carl.mondigo" class="social-link" aria-label="Facebook">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/MrEngineer2k03" class="social-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-1.22 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </a>
+                                <a href="mailto:carlpatrickmondigo2003@gmail.com?subject=Portfolio Inquiry&body=Hello, I want to contact you!" class="social-link" aria-label="Email">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h.909l10.455 7.636L21.455 3.82h.909c.904 0 1.636.732 1.636 1.637z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column - Contact Form -->
+                    <div class="contact-form-container">
+                        <div class="contact-form-card">
+                            <h3 class="form-title">Send Me a Message</h3>
+                            <form class="contact-form" id="contactForm">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" id="name" name="name" class="form-input" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" class="form-input" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                                </div>
+
+                                <button type="submit" class="form-submit-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Certificates -->
+    <div id="certificate-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <img id="modal-image" class="modal-image" src="" alt="Certificate">
+            <h2 id="modal-title" class="modal-title"></h2>
+            <p id="modal-issuer" class="modal-issuer"></p>
+            <span id="modal-date" class="modal-date"></span>
+        </div>
+    </div>
+
+    <!-- Modal for Project Details -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content project-modal-content">
+            <!-- Left Column -->
+            <div class="project-details-left">
+                <div class="project-breadcrumb">
+                    <button class="back-button" id="back-button">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+                        </svg>
+                        Back
+                    </button>
+                    <span class="breadcrumb-separator">></span> <a href="#projects" class="breadcrumb-link">Projects</a> <span class="breadcrumb-separator">></span> <span class="breadcrumb-current" id="project-title-modal">Project Name</span>
+                </div>
+                <h1 class="project-title-large" id="project-title-large">Project Title</h1>
+                <p class="project-description-full" id="project-description-full">Project description here...</p>
+
+                <div class="project-info-cards">
+                    <div class="info-card">
+                        <div class="info-number" id="tech-count">5</div>
+                        <div class="info-label">Total Technologies Used</div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-number" id="features-count">10</div>
+                        <div class="info-label">Main Features</div>
+                    </div>
+                </div>
+
+                <div class="project-buttons">
+                    <button class="btn btn-primary btn-large" id="live-demo-btn">Live Demo</button>
+                    <button class="btn btn-secondary btn-large" id="github-btn">GitHub</button>
+                </div>
+
+                <div class="project-tech">
+                    <h3 class="tech-title">Technologies Used</h3>
+                    <div class="tech-badges" id="tech-badges">
+                        <!-- badges here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="project-details-right">
+                <div class="project-preview-panel">
+                    <div class="project-preview-image" id="project-preview-image">
+                        <img src="" alt="Project preview" id="project-image">
+                        <div class="play-overlay">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-features-card">
+                    <h3 class="features-title">Key Features</h3>
+                    <ul class="features-list" id="features-list">
+                        <!-- list items -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-separator"></div>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3 class="footer-site-name">Portfolio</h3>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">Navigation</h4>
+                        <a href="#about" class="footer-link">About</a>
+                        <a href="#projects" class="footer-link">Projects</a>
+                        <a href="#skills" class="footer-link">Skills</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">Connect</h4>
+                        <a href="mailto:carlpatrickmondigo2003@gmail.com?subject=Portfolio Inquiry&body=Hello, I want to contact you!" class="footer-link">Email</a>
+                        <a href="https://www.facebook.com/carl.mondigo" class="footer-link">Facebook</a>
+                        <a href="https://github.com/MrEngineer2k03" class="footer-link">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-separator"></div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="try.js"></script>
+</body>
+</html>
